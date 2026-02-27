@@ -1,77 +1,99 @@
-# Rúbrica de Evaluación – Monster Hunter AR
+# RÚBRICA DE EVALUACIÓN  
+## Proyecto: Monster Hunter AR
 
 **Puntuación total: 10 puntos**
 
 ---
 
-## 1. Geolocalización (2 puntos)
+# 1️⃣ Geolocalización (1,5 puntos)
 
 | Nivel | Descripción |
 |-------|------------|
 | 0.5 | Se obtiene la posición GPS pero no se usa correctamente |
-| 1.0 | Se calcula distancia a un único objetivo |
-| 1.5 | Se gestionan múltiples objetivos correctamente |
-| 2.0 | Sistema completo con selección dinámica del objetivo más cercano |
+| 1.0 | Se calcula la distancia correctamente y se muestran datos en tiempo real |
+| 1.5 | Sistema completo y estable con cálculo preciso de distancia y activación del monstruo al aproximarse |
 
 ---
 
-## 2. Realidad aumentada (2 puntos)
+# 2️⃣ Secuencialidad y lógica de juego (1 punto)
 
 | Nivel | Descripción |
 |-------|------------|
-| 0.5 | Se muestra cámara AR sin interacción |
+| 0.5 | Los monstruos aparecen pero no siguen un orden definido |
+| 1.0 | Los monstruos se capturan obligatoriamente en el orden establecido y el sistema gestiona correctamente el progreso |
+
+---
+
+# 3️⃣ Realidad Aumentada (AR Foundation) (1,5 puntos)
+
+| Nivel | Descripción |
+|-------|------------|
+| 0.5 | Se muestra la cámara AR sin colocación estable |
 | 1.0 | Detección de planos funcional |
-| 1.5 | Colocación correcta de objetos en planos reales |
-| 2.0 | Estabilidad, escala real y feedback visual al usuario |
+| 1.5 | Colocación correcta y estable del modelo 3D sobre superficies reales |
 
 ---
 
-## 3. Sistema de monstruos (2 puntos)
+# 4️⃣ Sistema de Monstruos (1 punto)
 
 | Nivel | Descripción |
 |-------|------------|
-| 0.5 | Un único objeto sin estado |
-| 1.0 | Varios monstruos sin persistencia |
-| 1.5 | Vida, derrota y progresión |
-| 2.0 | Arquitectura basada en datos (listas, clases, estados) |
+| 0.5 | Mínimo 3 monstruos con vida básica |
+| 1.0 | Cada monstruo tiene posición GPS, vida, estado (activo/derrotado) y comportamiento coherente |
 
 ---
 
-## 4. Interacción y jugabilidad (2 puntos)
+# 5️⃣ Sistema de Combate e Interacción (1 punto)
 
 | Nivel | Descripción |
 |-------|------------|
-| 0.5 | Interacción mínima (solo tocar) |
-| 1.0 | Sistema de disparo funcional |
-| 1.5 | Colisiones, daño y feedback |
-| 2.0 | Experiencia jugable clara y estable |
+| 0.5 | Interacción básica funcional (toque o disparo) |
+| 1.0 | Sistema completo con detección de colisiones, reducción de vida y eliminación correcta |
 
 ---
 
-## 5. Navegación (Brújula) (1 punto)
+# 6️⃣ Navegación y Mapa (1 punto)
 
 | Nivel | Descripción |
 |-------|------------|
-| 0.5 | Indicador visual simple |
-| 1.0 | Brújula real usando sensores del dispositivo |
+| 0.5 | Implementación de brújula o flecha direccional |
+| 1.0 | Brújula funcional + mapa accesible durante el juego con representación del entorno y posiciones aproximadas |
 
 ---
 
-## 6. Código y arquitectura (1 punto)
+# 7️⃣ Interfaz y Experiencia de Usuario (1 punto)
+
+| Nivel | Descripción |
+|-------|------------|
+| 0.5 | Interfaz funcional pero básica |
+| 1.0 | Interfaz clara que muestra: distancia, dirección, vida del monstruo y botón de interacción |
+
+---
+
+# 8️⃣ Pantallas del Juego (1 punto)
+
+| Nivel | Descripción |
+|-------|------------|
+| 0.5 | Incluye pantalla de inicio y final |
+| 1.0 | Incluye pantalla de inicio, ayuda/tutorial explicativo y pantalla final funcional |
+
+---
+
+# 9️⃣ Animaciones y Sonido (1 punto)
+
+| Nivel | Descripción |
+|-------|------------|
+| 0.5 | Sonido o animación básica implementada |
+| 1.0 | Sonido y animación al aparecer el monstruo + sonidos durante el combate |
+
+---
+
+# 🔟 Calidad técnica y organización del código (1 punto)
 
 | Nivel | Descripción |
 |-------|------------|
 | 0.5 | Código funcional pero desorganizado |
-| 1.0 | Separación clara de responsabilidades (managers, entidades) |
-
----
-
-## 7. Memoria y documentación (1 punto)
-
-| Nivel | Descripción |
-|-------|------------|
-| 0.5 | Documentación incompleta |
-| 1.0 | Explicación clara, estructurada y con capturas |
+| 1.0 | Código estructurado, separación clara de responsabilidades y buena práctica en scripts |
 
 ---
 
@@ -79,42 +101,19 @@
 
 Se podrá restar hasta **-2 puntos** por:
 
-- El proyecto no funciona en dispositivo físico.
+- No funcionar en dispositivo físico.
 - Errores graves de ejecución.
-- No cumplir requisitos mínimos.
-- Uso de recursos sin citar correctamente.
+- No cumplir los requisitos mínimos obligatorios.
 
 ---
 
-# Criterios de excelencia (hasta +1 punto extra)
+## Resumen de evaluación
 
-Se podrá otorgar hasta **+1 punto adicional** (máximo 11/10) por:
-
-- Generación dinámica de monstruos.
-- Persistencia de progreso.
-- Sonido espacial.
-- Diseño artístico destacable.
-- Creatividad jugable adicional.
-
----
-
-# Escala de calificación final
-
-| Nota | Nivel |
-|------|-------|
-| 9–10 | Excelente |
-| 7–8 | Notable |
-| 5–6 | Aprobado |
-| <5 | Suspenso |
-
----
-
-## Resumen
-
-La evaluación se centrará principalmente en:
+La nota se centrará principalmente en:
 
 - Uso correcto de geolocalización real.
-- Implementación adecuada de realidad aumentada con AR Foundation.
+- Implementación adecuada de AR Foundation.
+- Secuencialidad en la captura de monstruos.
 - Interacción jugable funcional.
-- Calidad técnica y estructural del código.
-- Claridad en la documentación entregada.
+- Calidad técnica y estructural.
+- Experiencia de usuario y presentación final.
